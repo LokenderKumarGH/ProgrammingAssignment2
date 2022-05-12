@@ -1,10 +1,14 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This function creates an object "matrix" to cache its inverse. 
+## This function calculates the inverse of the "matrix"
+## By using solve function in R inverse of the square matrix can be computed
 
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-
+        i <- NULL
+        set <- function (y) {
+                x <<- y
+                i <<- NULL
 }
 
 
